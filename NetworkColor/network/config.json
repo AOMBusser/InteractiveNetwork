@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "BUSSER Auriane"
+  },
+  "text": {
+    "more": "Network of tests use in the corpus publications. \nThe size of the nodes represent the number of time they appeared in the corpus, their color represents the category of test they belong to.\nThe more tests are used together, the more thickness and saturation of the edges link the two nodes increases.\nCategories :\nGreen node : Physical tests and tools\nBlue node : Questionnaires\nYellow : Cognitive tests and tools\nPink : Physiological tests and tools\nPurple : Miscellanious tests and tools",
+    "intro": "Network of tests use in the corpus publications. \nThe size of the nodes represent the number of time they appeared in the corpus, their color represents the category of test they belong to.\nThe more tests are used together, the more thickness and saturation of the edges link the two nodes increases.\nGreen node : Physical tests and tools\nBlue node : Questionnaires\nYellow : Cognitive tests and tools\nPink : Physiological tests and tools\nPurple : Miscellanious tests and tools\n",
+    "title": "Network of tests use in the corpus publications"
+  },
+  "legend": {
+    "edgeLabel": "Tests used together",
+    "colorLabel": "Test category",
+    "nodeLabel": "Tests or tools"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Category",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 20
+    },
+    "graphProperties": {
+      "maxEdgeSize": 30,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 30
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
